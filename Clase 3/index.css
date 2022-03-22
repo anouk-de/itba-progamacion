@@ -1,0 +1,9 @@
+h2{
+    color: red 
+}
+
+h2{
+color: rgb(0, 255, 191) !important; #pasa a ser la primer pioridad;
+font-size: 20px;  
+}
+
