@@ -7,3 +7,6 @@ color: rgb(0, 255, 191) !important;
 h2{
     color: red 
 }
+
+body {background-color: black;}
+    *{color: white;}
