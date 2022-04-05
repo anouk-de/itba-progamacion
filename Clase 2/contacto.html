@@ -9,7 +9,7 @@
 <body>
 
     <a href="./notas.html">Volver hacia atrás</a>
-    <h2> Formulario de COntacto</h2>
+    <h2> Formulario de Contacto</h2>
 
     <form action="">
         Nombre
@@ -18,13 +18,15 @@
         Contraseña
         <input type="password" placeholder="Ingrese su contraseña"><br>
         Nivel de satisfaccion
-        <input type="range"><br>
+        <input type="range" min="1" max="10" ><br>
         Email
         <input type="email" placeholder="Ingrese su mail"> <br>
         Booleano
         <input type="radio"> Sí
         <input type="radio"> No
-        <br>
+        Cantidad de entradas
+        <input type="number" id="quantity" min="0" max="10" step="1" value="20">
+        <br> <br>
         <input type="button" value="Enviar">
 
 
