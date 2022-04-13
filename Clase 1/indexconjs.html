@@ -18,25 +18,7 @@
 
   console.log("No deberias leer esto")
 
-  /* Variables? Espacio en memoria donde se almacena un valor
-  qué es? un cajón.
-  Como armo una variable?
-  let nombredelavariable = "valor"
-  = es el operador de asignación
-  var << para crear variables
-
-  tipos de datos:
-  numerico: enteros o con coma (integer, float)
-  strings: 
-
-  cuando tiene comillas se lee como una concatenación 
-  osea que si yo pongo en valor "19" + 1 va a darme 191, no 30
-
-  
-
-  */
-
-  let nombre = "Anouk"
+/*let nombre = "Anouk"
   let edad = 19
   let Verdadero_o_falso = true 
   let siguiente = 1
@@ -44,14 +26,93 @@
 
 // edad = edad + 1 
 //edad = edad - 1 
-
-
  
   console.log(nombre)
   document.write(edad)
   console.log(typeof(verdaderoofalso))
-  console.log(edad-siguiente)
+  console.log(edad-siguiente) 
+*/
 
+/*
+document.write(" <br> ")
+
+let nombre;
+let edad;
+nombre = prompt("Ingrese su nombre: ")
+edad = prompt("Ingrese su edad: ")
+document.write(nombre + " es un lindo nombre")
+document.write('<br>')
+document.write(edad + " es tu edad")
+document.write("El año que viene tendras " + (number(edad + 1)))
+
+let cateto1
+let cateto2
+cateto1 = prompt("Ingrese cateto 1: ")
+cateto2 = prompt("Ingrese cateto 2: ")
+let hipotenusa
+hipotenusa = math.sqrt(
+    (cateto1*cateto1) + (cateto2*cateto2))
+    document.write("La hipotenusa es de: " + hipotenusa)
+
+docuement.write(11%5)
+
+
+let edad = promt(“Ingrese su edad: “);
+if(edad >= 18) {
+	document.write(“Puede pasar”)
+} else{
+	document.write(“No puede pasar”)
+}
+
+let decision  = prompt(“¿mueve la palanca?”)
+if(decision === “si”) {
+	document.write(“mata a una persona”)}
+else if(decision === “no”) {
+	document.write(“mata a 5 personas”)}
+else{
+	document.write(“Ingrese si o no”)}
+
+*/
+
+//ejercicio 1)
+
+let lado
+lado = prompt("Ingrese el valor del lado");
+perimetroDeUnCuadrado = (lado*4)
+document.write("El perímetro del cuadrado es: " + perimetroDeUnCuadrado)
+
+//ejercicio 2)
+
+console.log(number(numero1))
+console.log(number(numero2))
+console.log(number(numero3))
+console.log(number(numero4))
+
+let numero1
+let numero2
+let numero3
+let numero4
+numero1 = prompt("Ingrese el valor de un número: ");
+numero2 = prompt("Ingrese el valor de otro número: ");
+numero3 = prompt("Ingrese el valor de un tercer número: ");
+numero4 = prompt("Ingrese el valor de cuarto número: ");
+document.write("La suma de los primero 2 números es: " + (numero1 +numero2))
+document.write("EL producto de los últimos 2 números es: " + (numero3*numero4))
+
+//ejercicio 3)
+
+console.log(number(numero1))
+console.log(number(numero2))
+console.log(number(numero3))
+console.log(number(numero4))
+
+numero1 = prompt("Ingrese el valor de un número: ");
+numero2 = prompt("Ingrese el valor de otro número: ");
+numero3 = prompt("Ingrese el valor de un tercer número: ");
+numero4 = prompt("Ingrese el valor de cuarto número: ");
+
+document.write("La suma de los valores es: " + (numero1+numero2+numero3+numero4))
+document.write("El producto de los valores es: " + (numero1*numero2*numero3*numero4))
 
 
 </script>
