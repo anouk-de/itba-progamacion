@@ -145,24 +145,27 @@ let numero1
 let numero2
 let operacion
 
-console.log(number(numero1));
-console.log(number(numero2));
+console.log(Number(numero1))
+console.log(Number(numero2))
 
-numero1 = prompt("Ingrese un numero: ");
-numero2 = prompt("Ingrese el otro numero: ");
-operacion = prompt("Seleccione la operación (+, -, * /) : ");
+numero1 = parseInt(prompt("Ingrese un numero: "))
+numero2 = parseInt(prompt("Ingrese el otro numero: "))
+operacion = prompt("Seleccione la operación (+, -, * /) : ")
 
-if (operacion === "multiplicación" | "multiplicacion"| "por"){
+if (operacion === "multiplicación" || operacion === "multiplicacion"|| operacion === "por"){
   document.write("El resultado es: " + (numero1*numero2))
 }
-if (operacion === "suma"|"mas" | "más"){
+else if (operacion === "suma" || operacion === "mas" || operacion === "más" || operacion === "+"){
   document.write("El resultado es: " + (numero1+numero2))
 }
-if (operacion === "resta" | "menos"){
+else if (operacion === "resta" || operacion === "menos"|| operacion === "-"){
   document.write("El resultado es: " + (numero1-numero2))
 }
-if(operacion === "división" | "division" | "dividido"){
+else if(operacion === "división" || operacion === "division" || operacion === "dividido" || operacion === "/"){
   document.write("El resultado es: " + (numero1 / numero2))
+}
+else if((numero2 === 0) && (operacion === "división" || operacion === "division" || operacion === "dividido" || operacion === "/")){
+  document.write("Error")
 }
 
 
