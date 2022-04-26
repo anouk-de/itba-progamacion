@@ -121,6 +121,7 @@ document.write("El producto de los valores es: " + (numero1*numero2*numero3*nume
 
 //Clase 26/04
 
+/*
 let edad = 17
 let altura = 1.4
 if ((edad>18)|(altura>1.4)) {}
@@ -132,12 +133,37 @@ let pesoEnKg
 let alturaEnCm
 
 pesoEnKg = prompt("Ingrese su peso: ");
-alturaEnCm = prompt("Ingrese su altura: ");
+alturaEnM = prompt("Ingrese su altura: ");
 
 document.write("El IMC es: " + (pesoEnKg/(alturaEnCm*alturaEnCm)))
 
-
 IMC = pesoEnKg/(alturaEnCm*alturaEnCm)
+
+*/
+
+let numero1
+let numero2
+let operacion
+
+console.log(number(numero1));
+console.log(number(numero2));
+
+numero1 = prompt("Ingrese un numero: ");
+numero2 = prompt("Ingrese el otro numero: ");
+operacion = prompt("Seleccione la operación (+, -, * /) : ");
+
+if (operacion === "multiplicación" | "multiplicacion"| "por"){
+  document.write("El resultado es: " + (numero1*numero2))
+}
+if (operacion === "suma"|"mas" | "más"){
+  document.write("El resultado es: " + (numero1+numero2))
+}
+if (operacion === "resta" | "menos"){
+  document.write("El resultado es: " + (numero1-numero2))
+}
+if(operacion === "división" | "division" | "dividido"){
+  document.write("El resultado es: " + (numero1 / numero2))
+}
 
 
 </script>
