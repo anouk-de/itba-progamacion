@@ -42,6 +42,7 @@ saludar()
 /*****************/
 // parametro: es un valor que va a ingresar el usuario, comodin 
 
+/*
 function siguiente (numero) {
     console.log(numero+1)
 }
@@ -54,7 +55,8 @@ function saludarConParametro(nombre) {
 
 saludarConParametro("Anouk")
 
-/***************************/
+*************************************************
+
 function sumarDos (numero1, numero2) {
     let resultado = numero1 + numero2
     return resultado
@@ -68,7 +70,7 @@ mostrar( sumarDos(1,2) )
 //es lo mismo que
 console.log(sumarDos(2,3))
 
-/***************************/
+***************************
 function calculadora (numero1, numero2, operacion) {
     if (operacion === "+") {
         return numero1 + numero2
@@ -122,7 +124,7 @@ function saludarALaVariable(){
 
 mostrar(saludarALaVariable)
 
-/************************************/
+************************************
 
 // funciones anónimas o expresadas -> habitan dentro de otra función
 
@@ -195,11 +197,12 @@ function calcularCostos (producto1, producto2, producto3) {
 
 mostrar(calcularCostos("Limpieza de cutis", "Uñas esculpidas", "Pedicura"))
 
-*/
+*******************************************************************
 
 
-let caracteristicasProfesor["Esteban", 29, "Profesor"]
-console.log(profesor)
+let profesor = ["Esteban" , 29, "profesor" ]
+    console.log(profesor) 
+
 // accedo a toda a información
 console.log(profesor[0])
 
@@ -216,6 +219,90 @@ for (let i = 0; i < profesor.length; i ++); {
     profesor[i] = profesor[i] + 1;
     console.log(profesor[i])
 }
+
+// metodos: PUSH
+
+profesor.push("el mejor")
+console.log(profesor)
+//agregar elementos al final
+
+profesor.pop()
+console.log(profesor)
+//el pop elimina el ultimo valor
+
+profesor.unshift("mutea la compu")
+console.log(profesor)
+//agregar elementos al principio
+
+profesor.shift()
+console.log(profesor)
+//el shift elimina los valores del principio
+
+let ultimo = profesor(pop)
+console.log(ultimo)
+//retorna el ultimo valor
+
+profesor.push("el mejor")
+console.log(profesor)
+profesor.unshift("mutea la compu")
+console.log(profesor)
+profesor.pop()
+profesor.shift()
+console.table(profesor)
+*/
+/*
+//El método splice() cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos.
+profesor.splice[1, 2]
+consoe.log(profesor)
+
+profesor.splice(profesor.length /2, 1)
+
+let mitad = profesor.splice(profesor.length/2, profesor.length)
+console.log(profesor)
+
+
+let abc = [a, b, c, d, e ]
+console.log(abc)
+
+let medio = abc.splice(abc.length/2, 5)
+console.log(medio)
+//el slice redondea hacia abajo >> hace que el medio sea 'c'
+console.log(abc.reverse()) //invierte el array
+console.log(abc.includes('a')) //recorre todos los datos y me dice true o false si está o no en el array
+
+if (abc.includes('a')) {
+    console.log("la letra está en el array")
+} 
+else {
+    console.log("la letra no está en el array")
+}
+ //no tengo que poner un return pq .includes ya es un booleano en sí
+
+
+
+let equipo = ['anouk', 'isa', 'caro', 'luli', 'cami']
+console.log(equipo)
+let frase = equipo.join(' bulea a,')
+console.log(frase)
+
+let perros = ['polo', 'odin']
+let gatos = ['donna', 'michi']
+let mascotas = perros.concat(gatos)
+console.log(mascotas)
+
+let letras = ['a', 'b', 'c']
+console.log(letras.indexOf('a'))
+console.log(letras.indexOf('f')) //si no está en el array da -1
+console.log(letras.indexOf('c'))
+
+*/
+
+//Ejercicios
+
+// 1) Escribir un array con la cantidad de valores que quiera
+// 2) en una variable, asignar el valor de un elemento que esté en el array
+// 3) Escribir un código que elimine ese elemento (el de la variable) del array
+
 
 
 
