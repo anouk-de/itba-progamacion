@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesdom.css">
+    <title>Manejo de DOM - Clase 17/05</title>
+</head>
+<body>
+    <header>
+        <h1>DOM: Modelo de Objetos del Documento</h1>
+    </header>
+    <main>
+        <div id="primera-parte">
+            <p>Este texto está en <strong> negrita </strong></p>
+            <li>Acá se puede acceder a 4 nodos ( p / 'este texto está en' / strong / negrita)</li>
+            <li>puedo acceder a la etiqueta como al contenido de la etiqueta</li>
+            <li>va a permitir modificar el html y el css desde el js</li>  
+            <li>cada etiqueta es un nodulo </li>
+            <li>el nódulo global es los que se llama document</li>
+        </div>
+        <div id="segunda-parte">
+            <p id="pConId"> ID</p>
+            <p class="pConClass"> Class</p>
+            <p> Tag</p>
+        </div>
+        <div>
+            <h1 id="titular"> Web titutlar</h1>
+            <input type="button" onclick="cambiarTitular()" value="Cambiar texto">
+        </div>
+        <div id="vacio">
+            <input type="button" onclick="hacerAparecer()" value="Reevelar Info" >
+            <!-- react cambia el contenido del html desde el javascript-->
+
+        </div>
+
+    </main>
+
+    <ul>
+        <li class="paises"> argentina</li>
+        <li class="paises"> alemania</li>
+        <li class="paises"> francia</li>
+    </ul>
+
+    <input type="button" onclick="borrarPais()" value="Borrar país"> 
+    <br>
+
+    <form action="">
+        <label for="nombre"> Nombre: </label>
+        <input type="text" id="nombre"> <br><br>
+        <label for="edad"> Edad: </label>
+        <input type="number" id="edad">
+        <input type="button" onclick="sumarEdad()" value="Suma edad">
+    </form>
+        
+    <footer></footer>
+    
+</body>
+
+<script>
+    console.log("soy interno")
+
+</script>
+<script src="main.js"> </script>
+</html>
