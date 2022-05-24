@@ -61,11 +61,12 @@ function sumar() {
     let valor = document.getElementById("edad").value
     return parseInt(valor) + 1
 }
-
+/*
     let nombreUsuario = document.getElementById("nombre").value
     let edadUsuario = document.getElementById("edad").value
 
 document.body.append(`el nombre ded usuario es ${nombreUsuario} y va a cumplir ${sumar(edadUsuario)}`)
+*/
 
 // query lo podemos para seleccionar algo 
 // query = consulta
