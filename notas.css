@@ -1,0 +1,45 @@
+table{
+font-family: arial, sans-serif;
+border-collapse: collapse;
+border-color: rgba(37, 36, 36, 0.027) ;
+width: 100%;
+}
+
+th, td {
+border: 1px solid white;
+padding: 8px;
+text-align: left;
+}
+
+body {
+background-color: powderblue;
+color: black;
+font-family: 'Courier New', Courier, monospace;
+}
+h1{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#fotoDeGatito{
+    position: relative;
+    left: 100px;
+    top: 1px;
+
+}
+
+#modeloDeCaja{
+    width: 300px;
+    border: 10px outset #f7e2e2;
+    padding: 30px;
+    margin: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#wppPng {
+    position: fixed;
+    bottom: 30px;
+    right: 20%; 
+
+}
+
