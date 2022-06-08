@@ -1,17 +1,116 @@
 
 h2{
-color: #61a4bc!important;  
+color: #dfca88!important;  
 }
 /*para que tenga prioridad sobre lo de abajo*/
 
-h2{
-    color: red 
-}
-
-
 
 body {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color:#5c492b;
+    font-family: Papyrus, fantasy;
+    font-style: bold;
 }
     
+.topnav {
+    background-color: #BCAB89;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .topnav a {
+    background-color: #BCAB89;
+    float: left;
+    color: #5c492b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #C5AE6D;
+    color: #5c492b;
+  }
+  
+  /* Add a color to the active/current link 
+  .topnav a.active {
+    background-color: #C5AE6D;
+    color: #5c492b;
+  }
+*/
+
+#contacto {
+    text-align: left;
+    color: #93897C;
+}
+
+.column {
+    width: 200px;
+}
+
+::placeholder {
+    font-family: monospace;
+    color: #93897C;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #BCAB89;
+    color: #5c492b;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: Papyrus, fantasy;
+    font-size: 14;
+    border-style: outset;
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: #C5AE6D;
+    border-style: none;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: right;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
