@@ -1,4 +1,8 @@
 
+h1 {
+  font-family: calibri bold, sans-serif;
+}
+
 h2{
 color: #dfca88!important;  
 }
@@ -8,7 +12,7 @@ color: #dfca88!important;
 body {
     background-color: white;
     color:#5c492b;
-    font-family: Papyrus, fantasy;
+    font-family:  monospace, sans-serif;
     font-style: bold;
 }
     
@@ -103,12 +107,15 @@ body {
   
   /* Create two columns that float next to eachother */
   .column {
-    float: right;
+    float: left;
     width: 50%;
     margin-top: 6px;
     padding: 20px;
   }
 
+.row {
+  background-color: #BCAB89;
+}
   
   /* Clear floats after the columns */
   .row:after {
