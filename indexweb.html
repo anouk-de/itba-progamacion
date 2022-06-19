@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anouk de Laferrère </title>
+    <title> Ximena Summers Art </title>
     <link rel="stylesheet" href= "./styles.css">
 </head>
 
@@ -12,20 +12,28 @@
 
 </header>
 <body>
-    <h1 style="color: #a98f56" > XIMENA SUMMERS </h1>
+    <h1> XIMENA SUMMERS </h1>
     <h2> A R T I S T A </h2>
         <br>
         <div class="topnav">
             <a class="active" href="#home">INICIO</a>
             <a href="#about">ACERCA  DE</a>
-            <a href="#colecciones">COLLECCIONES</a>
+            <div href="#colecciones" class="dropdown">
+              <button class="dropbtn">COLECCIONES</button>
+              <div class="dropdown-content">
+                <a href="#">Naturaleza Muerta</a>
+                <a href="#">Linea Continua</a>
+                <a href="#">Carbonilla</a>
+                <a href="#">Historias</a>
+              </div>
+            </div>
             <a href="#contacto">CONTACTO</a>
           </div>
         <br>
         <class="container">
-            <div class="row">
+            <div class="row" id="contacto">
             <div style="text-align:left" id="introContacto" class="column">
-              <h2 id="contacto"> Contactame </h2>
+              <h2 class="miniTitulo"> Contactame </h2>
               <p>Si te interesa alguna de mis obras, no dudes en mandarme un email llenando tus datos, un WhatsApp o un DM y te contactaré </p>
             </div>
 
@@ -50,11 +58,23 @@
           </div>
 
 
-
-
-
-
 <i class="fa-solid-fa-envelope" id="item-mail"></i>
+
+<div id="myDiv"></div>
+
 </body>
+
+
+
+<script type="text/javascript">
+  $(function () {
+    $('#myDiv').floatingWhatsApp({
+      phone: '5491133162360',
+      popupMessage: 'Hola! ¿Qué tal?',
+      showPopup: 'true',
+      position: 'right',
+    });
+  });
+</script>
 
 </html>
