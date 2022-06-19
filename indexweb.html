@@ -12,9 +12,16 @@
 
 </header>
 <body>
-    <h1> XIMENA SUMMERS </h1>
-    <h2> A R T I S T A </h2>
-        <br>
+
+        <br> 
+        <div class="bienvenido">
+          <div class="image">
+            <h1> XIMENA SUMMERS </h1>
+            <h2> A R T I S T A </h2>
+            <img src="./images/mama2b.JPG" alt="Ximena Summers">
+              </div>
+          </div>
+
         <div class="topnav">
             <a class="active" href="#home">INICIO</a>
             <a href="#about">ACERCA  DE</a>
@@ -22,14 +29,29 @@
               <button class="dropbtn">COLECCIONES</button>
               <div class="dropdown-content">
                 <a href="#">Naturaleza Muerta</a>
+                <a href="#">Naturaleza Viva</a>
                 <a href="#">Linea Continua</a>
-                <a href="#">Carbonilla</a>
+                <a href="#">Figura Humana</a>
+                <a href="#">Entintadas</a>
+                <a href="#">XXL</a>
                 <a href="#">Historias</a>
               </div>
             </div>
             <a href="#contacto">CONTACTO</a>
           </div>
         <br>
+        <class="container">
+          <div class="row" id="home" style="background-color: rgb(20,20,20)">
+            <div style="text-align:left" class="column">
+              <h2 class="miniTitulo">Bienvenid@</h2>
+            
+            </div>
+
+
+          </div>
+        </class>
+
+
         <class="container">
             <div class="row" id="contacto">
             <div style="text-align:left" id="introContacto" class="column">
@@ -64,7 +86,28 @@
 
 </body>
 
+<script>
 
+window.onscroll = function() {topnavscroll()};
+
+// Get the navbar
+let navbar = document.getElementsByClassName("topnav");
+
+// Get the offset position of the navbar
+let sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function topnavscroll() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } 
+  else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+</script>
 
 <script type="text/javascript">
   $(function () {
