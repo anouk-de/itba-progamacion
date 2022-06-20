@@ -82,9 +82,11 @@ h2{
   color:#dfd2af;
   text-shadow: 2px  2px 2px rgb(20, 20, 20);
   font-size: 40px;
-  padding: 40px 20px;
+  padding-top: 40px;
+  padding-left: 20px;
   margin-left: 25px;
   margin-top: 20px;
+  font-style: bold;
 }
 
 
@@ -183,23 +185,24 @@ body {
   display: block;
 }
 
-
-#parrafoUno {
-  padding: 20px 50px;
-  padding-left: 20px;
+.row {
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-#introContacto {
-  padding: 30px 50px;
-  padding-left: 20px;
+#parrafoUno {
+  padding-right: 50px;
+  margin-top: 0px;
+  color: #dfd2af; 
+  line-height: 30px;
 }
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
-  height: 75%;
+  width: 70%;
 }
 
 #colecciones {
@@ -209,10 +212,22 @@ body {
 
 #historias {
   background-color: #5c492b;
+  justify-content: space-between;
 }
 .col {
   float: left;
   width: 19.1%;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.colh {
+  float: left;
+  width: 24%;
   margin-top: 5px;
   margin-left: 5px;
   margin-right: 5px;
