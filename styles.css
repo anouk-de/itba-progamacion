@@ -82,7 +82,10 @@ h2{
   color:#dfd2af;
   text-shadow: 2px  2px 2px #5c492b;
   font-size: 40px;
+  padding: 5px;
+  margin-left: 25px;
 }
+
 
 body {
     background-color: white;
@@ -133,7 +136,7 @@ body {
   overflow: hidden;
 }
 
- .dropbtn {
+.dropbtn {
   font-size: 16px;
   border: none;
   outline: none;
@@ -182,17 +185,42 @@ body {
     text-align: left;
 }
 
-#parrafoBienvenida {
+#parrafoUno {
   padding: 110px;
   padding-left: 20px;
 }
 
+#parrafoDos {
+  padding: 100px;
+  padding-left: 20px;
+}
+
+#bienvenida {
+  vertical-align: text-top;
+}
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
   height: 80%;
+}
+
+#colecciones {
+  background-color: #ffff;
+  border: 2px ;
+
+}
+
+.col {
+  float: left;
+  width: 19.1%;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
 }
 
 ::placeholder {
@@ -258,6 +286,7 @@ body {
 
 .row {
   background-color: #BCAB89;
+  justify-content: space-around;
 }
   
   /* Clear floats after the columns */
