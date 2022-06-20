@@ -98,7 +98,7 @@ body {
     font-size: 20px;
 }
     
-.topnav {
+#topnav {
     background-color: #BCAB89;
     overflow: hidden;
     width: 100%;
@@ -106,7 +106,7 @@ body {
     justify-content: space-between;
   }
   
-  .topnav a {
+  #topnav a {
     background-color: #BCAB89;
     float: left;
     color: #5c492b;
@@ -119,7 +119,7 @@ body {
   }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+  #topnav a:hover {
     background-color: #C5AE6D;
     color: #5c492b;
   }
@@ -130,18 +130,18 @@ body {
     width: 100%;
   }
 
-  .sticky + .topnav {
+  .sticky + .content{
     padding-top: 60px;
   }
 
 
   /* dropdown container 1 */
-.dropdown {
+#topnav .dropdown {
   float: left;
   overflow: hidden;
 }
 
-.dropbtn {
+#topnav .dropbtn {
   font-size: 18px;
   border: none;
   outline: none;
@@ -152,11 +152,11 @@ body {
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-.dropbtn:hover {
+#topnav .dropbtn:hover {
   background-color: #C5AE6D;
 }
 
-.dropdown-content {
+#topnav .dropdown-content {
   display: none;
   position: absolute;
   background-color: #BCAB89;
@@ -165,7 +165,7 @@ body {
 }
 
 /* Links dentro del dropdown */
-.dropdown-content a {
+#topnav .dropdown-content a {
   float: none;
   color: #5c492b;
   background-color: #dfd2af;
@@ -176,12 +176,12 @@ body {
 }
 
 /* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
+#topnav .dropdown-content a:hover {
   background-color: #ddd;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+#topnav .dropdown:hover .dropdown-content {
   display: block;
 }
 
