@@ -80,9 +80,9 @@ h2{
 .miniTitulo {
   font-family: garamond, serif;
   color:#dfd2af;
-  text-shadow: 2px  2px 2px #5c492b;
+  text-shadow: 2px  2px 2px rgb(20, 20, 20);
   font-size: 40px;
-  padding: 5px;
+  padding: 40px 20px;
   margin-left: 25px;
   margin-top: 20px;
 }
@@ -182,31 +182,24 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-  
-.column {
-    width: 200px;
-    text-align: left;
-}
+
 
 #parrafoUno {
-  padding: 110px;
+  padding: 20px 50px;
   padding-left: 20px;
 }
 
-#parrafoDos {
-  padding: 100px;
+#introContacto {
+  padding: 30px 50px;
   padding-left: 20px;
 }
 
-#bienvenida {
-  vertical-align: text-top;
-}
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-  height: 80%;
+  width: 75%;
+  height: 75%;
 }
 
 #colecciones {
@@ -226,6 +219,11 @@ body {
   padding: 5px;
   display: flex;
   justify-content: space-around;
+}
+
+#introContacto {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 ::placeholder {
@@ -285,7 +283,8 @@ body {
     float: left;
     width: 50%;
     margin-top: 6px;
-    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   
