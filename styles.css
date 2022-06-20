@@ -4,11 +4,11 @@
   width: 100%;
   overflow: hidden;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 .image{
   position: relative;
-  background: #ddd; /* IE */
+  background: #ffff;
   padding: 0px;
   top: 0px;
 }
@@ -60,7 +60,7 @@
   bottom:0;
   left:0;
   padding: 0px;
-  background: #ddd;
+  background: #ffff;
   overflow: hidden;
 }
 
@@ -84,6 +84,7 @@ h2{
   font-size: 40px;
   padding: 5px;
   margin-left: 25px;
+  margin-top: 20px;
 }
 
 
@@ -211,9 +212,11 @@ body {
 #colecciones {
   background-color: #ffff;
   border: 2px ;
-
 }
 
+#historias {
+  background-color: #5c492b;
+}
 .col {
   float: left;
   width: 19.1%;
@@ -285,17 +288,13 @@ body {
     padding: 20px;
   }
 
-
-.row {
-  background-color: #BCAB89;
-  justify-content: space-around;
-}
   
   /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
+    margin: 10px;
   }
   
   @media screen and (max-width: 600px) {
