@@ -82,7 +82,7 @@ h2{
   color:#dfd2af;
   text-shadow: 2px  2px 2px rgb(20, 20, 20);
   font-size: 40px;
-  padding-top: 40px;
+  padding-top: 60px;
   padding-left: 20px;
   margin-left: 25px;
   margin-top: 20px;
@@ -155,7 +155,7 @@ body {
 
 #topnav .dropdown-content {
   display: none;
-  position: sticky;
+  position: absolute;
   background-color: #BCAB89;
   min-width: 160px;
   z-index: 1;
@@ -187,14 +187,10 @@ body {
   width: 100%;
 }
 
-.sticky .dropdown-content {
-  position: absolute;
-}
 
 .sticky + .content{
   padding-top: 40px;
 }
-
 
 .row {
   padding-bottom: 20px;
@@ -228,22 +224,23 @@ body {
 .col {
   float: left;
   width: 19.1%;
-  margin-top: 5px;
+  margin-top: 1px;
   margin-left: 5px;
   margin-right: 5px;
-  padding: 5px;
+  margin-bottom: 1px;
+  padding: 2px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .colh {
   float: left;
   width: 24%;
-  margin-top: 3px;
+  margin-top: 1px;
   margin-left: 5px;
   margin-right: 5px;
-  margin-bottom: 3px;
-  padding: 5px;
+  margin-bottom: 1px;
+  padding: 2px;
   display: flex;
   justify-content: space-around;
 }
