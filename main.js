@@ -71,7 +71,7 @@ document.body.append(`el nombre ded usuario es ${nombreUsuario} y va a cumplir $
 // query lo podemos para seleccionar algo 
 // query = consulta
 
-let parrafos = document.querySelectorAll("p") //puedo sellecionar por etiqueta
+let parrafos = document.querySelectorAll("p") //puedo selecionar por etiqueta
 console.log(parrafos)
 let seleccionarUno = document.querySelectorAll("#titutlar") //puedo seleccionar por id
 console.log(seleccionarUno)
