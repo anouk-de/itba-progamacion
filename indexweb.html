@@ -22,10 +22,10 @@
           </div>
 
         <div id="topnav">
-            <a class="active" href="#home">INICIO</a>
-            <a href="#about">ACERCA DE</a>
+            <a class="active" href="#">INICIO</a>
+            <a href="#home">ACERCA DE</a>
             <div class="dropdown">
-              <button class="dropbtn">COLECCIONES</button>
+              <button class="dropbtn" onClick='window.location="#colecciones"'>COLECCIONES</button>
               <div class="dropdown-content">
                 <a href="#">Naturaleza Muerta</a>
                 <a href="#">Naturaleza Viva</a>
@@ -169,26 +169,26 @@
           </div>
 
 
-<div id="myDiv"></div>
 
 </body>
 
 <script>
-// Get the navbar
-window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("topnav");
-
-var sticky = navbar.offsetTop;
-
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
+  // Get the navbar
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("topnav");
+  
+  var sticky = navbar.offsetTop;
+  
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky")
+    }
   }
-}
 
 
 </script>
