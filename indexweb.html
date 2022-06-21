@@ -40,7 +40,7 @@
             <a href="#historias">HISTORIAS</a>
             <a href="#contacto">CONTACTO</a>
           </div>
-        <br>
+        
         <class="container">
           <div class="row" id="home" style="background-color: rgb(27, 30, 30)">
             <h2 class="miniTitulo">Bienvenidos</h2>
@@ -177,9 +177,9 @@
 
 window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementsById("topnav");
+let navbar = document.getElementById("topnav");
 
-var sticky = navbar.offsetTop;
+let sticky = navbar.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
@@ -190,18 +190,7 @@ function myFunction() {
   }
 }
 
-
 </script>
 
-// <script type="text/javascript">
-//  $(function () {
-//    $('#myDiv').floatingWhatsApp({
-//      phone: '5491133162360',
-//      popupMessage: 'Hola! ¿Qué tal?',
-//      showPopup: 'true',
-//      position: 'right',
-//    });
-//  });
-</script>
 
 </html>
