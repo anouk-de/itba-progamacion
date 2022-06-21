@@ -25,6 +25,10 @@
   padding: 0;
   margin: 0;
   text-align: left;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold' bold, serif round, sans-serif;
+  text-shadow: 2px  2px 2px rgb(20, 20, 20);
+  color: #665736;
+  font-style: italic;
 }
 
 .image #tituloNombre{
@@ -48,6 +52,10 @@
   margin: 0;
   margin-top: 40px; 
   text-align: right;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold' bold, serif round, sans-serif;
+  color: #665736;  
+  text-shadow: 1.5px  1.5px 1.5px rgb(20, 20, 20);
+  font-style: italic;
 }
 
 
@@ -65,17 +73,6 @@
 }
 
 
-h1 {
-  font-family: calibri bold, sans-serif;
-  text-shadow: 3px  3px 3px rgb(20, 20, 20);
-  color: #665736;
-}
-
-h2{
-  font-family: calibri bold, sans-serif;
-  color: #665736;  
-  text-shadow: 2px  2px 2px rgb(20, 20, 20);
-}
 
 .miniTitulo {
   font-family: garamond, serif;
@@ -128,9 +125,6 @@ body {
     background-color: #C5AE6D;
     color: #5c492b;
   }
-
-
-
 
   /* menu container */
 #topnav .dropdown {
@@ -198,12 +192,21 @@ body {
   padding-right: 10px;
 }
 
+.colec {
+  padding-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
 #parrafoUno {
   padding-right: 50px;
   margin-top: 0px;
   color: #dfd2af; 
   line-height: 30px;
 }
+
 
 .center {
   display: block;
@@ -215,6 +218,10 @@ body {
 #colecciones {
   background-color: #ffff;
   border: 2px ;
+}
+
+#colecciones a {
+  text-decoration: none;
 }
 
 #historias {
