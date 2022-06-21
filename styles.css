@@ -73,7 +73,6 @@
 }
 
 
-
 .miniTitulo {
   font-family: garamond, serif;
   color:#dfd2af;
@@ -155,6 +154,22 @@ body {
   z-index: 1;
 }
 
+.obscure:hover{
+  opacity: 0.4;
+  background-color: black;
+  z-index: 1;
+  top: 35%;
+  left: 20px;
+  right: 0;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-family: inherit;
+  text-shadow: 1px  1px 1px rgb(20, 20, 20);
+  color: rgb(20, 20, 20);
+}
+
 
 /* Links adentro del menu */
 #topnav .dropdown-content a {
@@ -180,7 +195,6 @@ body {
   top: 0;
   width: 100%;
 }
-
 
 .sticky + .content{
   padding-top: 40px;
@@ -227,7 +241,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 70%;
 }
 
 .colecCL {
@@ -245,7 +259,6 @@ body {
   margin-right: auto;
   text-align: inherit;
   width: 63%;
-
 }
 
 .center {
@@ -254,6 +267,7 @@ body {
   margin-right: auto;
   width: 70%;
 }
+
 
 #colecciones {
   background-color: #ffff;
@@ -268,26 +282,27 @@ body {
   background-color: #5c492b;
   justify-content: space-between;
 }
+/*
 .col {
   float: left;
-  width: 19.1%;
+  width: 19%;
   margin-top: 1px;
-  margin-left: 5px;
+  margin-left: 2px;
   margin-right: 5px;
   margin-bottom: 1px;
-  padding: 2px;
+  padding: 1px;
   display: flex;
-  justify-content: center;
+  text-align: left;
 }
-
+*/
 .colh {
   float: left;
   width: 24%;
   margin-top: 1px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
   margin-bottom: 1px;
-  padding: 2px;
+  padding: 1px;
   display: flex;
   justify-content: space-around;
 }
