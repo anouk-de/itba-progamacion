@@ -123,6 +123,7 @@ body {
   #topnav a:hover {
     background-color: #C5AE6D;
     color: #5c492b;
+    width: auto;
   }
 
   /* menu container */
@@ -148,7 +149,7 @@ body {
 
 #topnav .dropdown-content {
   display: none;
-  position: absolute;
+  position: sticky;
   background-color: #BCAB89;
   min-width: 160px;
   z-index: 1;
