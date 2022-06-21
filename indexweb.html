@@ -39,10 +39,10 @@
             </div>
             <a href="#historias">HISTORIAS</a>
             <a href="#contacto">CONTACTO</a>
-          </div>
+        </div>
         
         <class="container">
-          <div class="row" id="home" style="background-color: rgb(27, 30, 30)">
+          <div class="row" id="home" style="background-color: rgb(53, 52, 51)">
             <h2 class="miniTitulo">Bienvenidos</h2>
             <div style="text-align:left" class="column">              
               <img src="./images/mama3.JPG" alt="XimenaSummers" class="center">
@@ -174,21 +174,22 @@
 </body>
 
 <script>
-
+// Get the navbar
 window.onscroll = function() {myFunction()};
 
-let navbar = document.getElementById("topnav");
+var navbar = document.getElementById("topnav");
 
-let sticky = navbar.offsetTop;
+var sticky = navbar.offsetTop;
+
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
-  } 
-  else {
+  } else {
     navbar.classList.remove("sticky");
   }
 }
+
 
 </script>
 

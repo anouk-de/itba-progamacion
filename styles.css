@@ -89,6 +89,9 @@ h2{
   font-style: bold;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
     background-color: white;
@@ -127,15 +130,7 @@ body {
     color: #5c492b;
   }
 
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
 
-  .sticky + .content{
-    padding-top: 40px;
-  }
 
 
   /* dropdown container 1 */
@@ -186,6 +181,16 @@ body {
 /* Show the dropdown menu on hover */
 #topnav .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content{
+  padding-top: 40px;
 }
 
 .row {
