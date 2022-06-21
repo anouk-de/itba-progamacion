@@ -182,7 +182,7 @@ body {
   background-color: #dfd2af;
   font-size: 20px;
   padding: 12px 16px;
-  display: block;
+  display: sticky;
   text-align: left;
 }
 
@@ -286,10 +286,10 @@ a {
   background-color: #5c492b;
   justify-content: space-between;
 }
-/*
+
 .col {
   float: left;
-  width: 19%;
+  width: 32.5%;
   margin-top: 1px;
   margin-left: 2px;
   margin-right: 5px;
@@ -298,7 +298,14 @@ a {
   display: flex;
   text-align: left;
 }
-*/
+
+.row[type=nat] {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
 .colh {
   float: left;
   width: 24%;
