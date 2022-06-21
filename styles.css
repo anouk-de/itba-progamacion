@@ -207,6 +207,14 @@ body {
   line-height: 30px;
 }
 
+#parrafoDos {
+  padding-left: 80px;
+  margin-top: 0px;
+  color: #dfd2af; 
+  line-height: 30px;
+  text-align: right;
+}
+
 #parrafoBlanc {
   padding-left: 80px;
   margin-top: 0px;
@@ -228,6 +236,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+}
+
+.retrato {
+  padding-top: 30px;
+  display: block;
+  margin-left: 0px;
+  margin-right: auto;
+  text-align: inherit;
+  width: 63%;
+
 }
 
 .center {
