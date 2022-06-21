@@ -168,6 +168,9 @@ body {
   font-family: inherit;
   text-shadow: 1px  1px 1px rgb(20, 20, 20);
   color: rgb(20, 20, 20);
+  overflow: hidden;
+  display:block;
+  cursor: pointer;
 }
 
 
@@ -274,7 +277,7 @@ body {
   border: 2px ;
 }
 
-#colecciones a {
+a {
   text-decoration: none;
 }
 
