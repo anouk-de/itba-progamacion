@@ -155,27 +155,6 @@ body {
   z-index: 1;
 }
 
-
-.obscure:hover{
-  opacity: 0.4;
-  background-color: black;
-  z-index: 1;
-  top: 35%;
-  left: 20px;
-  right: 0;
-  font-size: 12px;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  font-family: inherit;
-  text-shadow: 1px  1px 1px rgb(20, 20, 20);
-  color: rgb(20, 20, 20);
-  overflow: hidden;
-  display:block;
-  cursor: pointer;
-}
-
-
 /* Links adentro del menu */
 #topnav .dropdown-content a {
   float: none;
@@ -325,6 +304,53 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+/*
+.overlay {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: inherit;
+  width: inherit;
+  opacity: 0;
+  background: #ffff;
+  background: #ddd;
+}
+*/
+
+.obscure:hover{
+  opacity: 0.4;
+  background-color: black;
+  z-index: 1;
+  top: 35%;
+  left: 20px;
+  right: 0;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: inherit;
+  text-shadow: 1px  1px 1px rgb(20, 20, 20);
+  color: rgb(20, 20, 20);
+  overflow: hidden;
+  display:block;
+  cursor: pointer;
+}
+/*
+.obscure:hover .text {
+  color: black;
+  font-size: 15px;
+  position:absolute;
+  top: 35%;
+  left: 20%;
+  text-align: center;
+  display:contents;
+}*/
+
+
+
+
 
 #introContacto {
   padding-left: 30px;
